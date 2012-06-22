@@ -12,7 +12,7 @@ quite certain that if he would have been writing code instead of painting
 pictures he would have some mighty dot files. Most of the code and cleverness
 here was ruthlessly stolen from my friends at the UIUC ACM.
 
-## And Go.
+## Code & Go
 
 <pre><code> $ ./install -f </code></pre>
 
