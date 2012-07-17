@@ -84,6 +84,8 @@ my %links = (
 
 	caffeinate => 'bin/caffeinate',
 	lock       => 'bin/lock',
+	chrome     => 'bin/chrome',
+	lime       => 'bin/chrome',
 
 	'git-info'            => 'bin/git-info',
 	'git-untrack-ignored' => 'bin/git-untracked-ignored',

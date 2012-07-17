@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+
+if test $# -ge 1; then
+    open -a Sublime\ Text\ 2 $*
+fi
+
+exit 0

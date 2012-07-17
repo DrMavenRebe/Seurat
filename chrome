@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+if test $# -eq 1; then 
+    open -a Google\ Chrome $1
+fi
