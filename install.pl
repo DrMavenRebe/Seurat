@@ -82,10 +82,9 @@ my %links = (
 
 	tigrc     => '.tigrc',
 
-	caffeinate => 'bin/caffeinate',
 	lock       => 'bin/lock',
 	chrome     => 'bin/chrome',
-	lime       => 'bin/chrome',
+	sublime       => 'bin/sublime',
 
 	'git-info'            => 'bin/git-info',
 	'git-untrack-ignored' => 'bin/git-untracked-ignored',

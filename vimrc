@@ -23,7 +23,7 @@ set smarttab               " Tab next line based on current line
 "set expandtab             " Spaces for indentation
 set autoindent             " Automatically indent next line
 if has('smartindent')
-   set smartindent            " Indent next line based on current line
+set smartindent            " Indent next line based on current line
 endif
 "set linebreak             " Display long lines wrapped at word boundaries
 set incsearch              " Enable incremental searching
