@@ -40,7 +40,7 @@
 	excludesfile = ~/.gitignore
 	safecrlf = true
 [push]
-	default = matching
+	default = upstream
 [user]
 	name = David Bremner
 	email = dave.bremner2@gmail.com
