@@ -84,7 +84,8 @@ my %links = (
 
 	lock       => 'bin/lock',
 	chrome     => 'bin/chrome',
-	sublime       => 'bin/sublime',
+	sublime    => 'bin/sublime',
+	tabname    => 'bin/tabname',
 
 	'git-info'            => 'bin/git-info',
 	'git-untrack-ignored' => 'bin/git-untracked-ignored',
