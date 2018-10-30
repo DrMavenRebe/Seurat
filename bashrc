@@ -78,24 +78,10 @@ if [ -d "${HOME}/.bash" ] ; then
 fi
 
 #RAILS STUFF
-alias remigrate='rake db:drop && rake db:create && rake db:migrate && rake db:schema:dump && rake db:test:prepare'
 alias be='bundle exec'
-
-#AWS
-export AWS_HOME=/Users/dBremner/Development/AWS
-export AWS_CREDENTIAL_FILE=$AWS_HOME/credentials.txt
-export AWS_AUTO_SCALING_HOME=$HOME/Development/AWS/AutoScaling-1.0.61.1
-export EC2_TOOLS_DIR=$HOME/Development/AWS/ec2
-export EC2_AMITOOL_HOME=/Users/dBremner/Development/AWS/ec2-ami-tools/current
-export EC2_APITOOL_HOME=/Users/dBremner/Development/AWS/ec2-api-tools/current
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
-
-export AWS_AUTO_SCALING_URL=https://autoscaling.us-west-1.amazonaws.com
-export EC2_REGION=us-west-1
-
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH=$PATH:$AWS_AUTO_SCALING_HOME/bin:$EC2_APITOOL_HOME/bin:$EC2_AMITOOL_HOME/bin
 
 # iTerm Tab Names
 export PROMPT_COMMAND=''
 
+# Docker
+eval $(docker-machine env)

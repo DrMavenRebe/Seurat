@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-
-if test $# -ge 1; then
-    echo -en "\033]0;"$*"\a" 
-fi
-
-exit 0
