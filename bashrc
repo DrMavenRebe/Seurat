@@ -81,9 +81,6 @@ fi
 alias remigrate='rake db:drop && rake db:create && rake db:migrate && rake db:schema:dump && rake db:test:prepare'
 alias be='bundle exec'
 
-#CANARYWARE
-export CANARYWARE_WRENCH=/Users/dBremner/Development/canaryware/wrench
-
 #AWS
 export AWS_HOME=/Users/dBremner/Development/AWS
 export AWS_CREDENTIAL_FILE=$AWS_HOME/credentials.txt
@@ -99,12 +96,6 @@ export EC2_REGION=us-west-1
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:$AWS_AUTO_SCALING_HOME/bin:$EC2_APITOOL_HOME/bin:$EC2_AMITOOL_HOME/bin
 
-#git completeion
-source ~/.git-completion
-
 # iTerm Tab Names
 export PROMPT_COMMAND=''
 
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
